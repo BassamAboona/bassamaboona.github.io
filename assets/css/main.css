@@ -694,6 +694,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.avatar {
+                        margin: 0.4rem 0;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        width: 300px;
+                        height: 300px;
+                        background-image: url("../../images/headshot.jpg");
+                        background-size: cover;
+                }
+
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
@@ -1288,8 +1298,8 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 15rem;
+			height: 15rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
